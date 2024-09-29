@@ -8,5 +8,5 @@ Output: [2, 3]
 
 const findDupes = (arr) => {
 
-}
+};
 console.log(findDupes([1, 2, 3, 2, 3, 4, 5]));
