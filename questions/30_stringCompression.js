@@ -7,5 +7,6 @@ Output: "a2b1c5a3"*/
 const strCompression = (str) => {
 
 };
-console.log(strCompression("abc"));
-console.log(strCompression("aabbbbbcddddefff"));
+console.log(strCompression("abc")); //"a1b1c1"
+console.log(strCompression("aabcccccaaa")); //"a2b1c5a3"
+console.log(strCompression("aabbbbbcddddefff")); // a2b5c1d4e1f3

@@ -8,4 +8,6 @@ Output: "jumped"*/
 const longestWord = (str) => {
 
 };
-console.log(longestWord("The quick brown fox jumped over the lazy dog"));
+
+console.log(longestWord("The quick brown fox jumped over the lazy dog")); //"jumped"
+console.log(longestWord("Harry is a Wizard who belongs to Gryffindor House")); //"Gryffindor"

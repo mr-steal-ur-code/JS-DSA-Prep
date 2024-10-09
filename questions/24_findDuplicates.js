@@ -9,4 +9,6 @@ Output: [2, 3]
 const findDupes = (arr) => {
 
 };
-console.log(findDupes([1, 2, 3, 2, 3, 4, 5]));
+console.log(findDupes([1, 2, 3, 2, 3, 4, 5])); //[2, 3]
+console.log(findDupes([21, 20, 21, 45, 90, 45])); // [21, 45]
+console.log(findDupes([1, 2, 3, 4, 5])); // []

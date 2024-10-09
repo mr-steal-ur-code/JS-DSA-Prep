@@ -5,7 +5,9 @@ capitalized. Words are separated by spaces.
 Input: string = "hello world"
 Output: "Hello World"*/
 
-const capitalizeWords = (str) => {
-
+const capitalWords = (str) => {
+  
 };
-console.log(capitalizeWords("hello world"));
+
+console.log(capitalWords("hello world"));
+console.log(capitalWords("Harry is a Wizard who belongs to Gryffindor House"));
