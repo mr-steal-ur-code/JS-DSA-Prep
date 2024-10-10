@@ -8,4 +8,4 @@ Output: [1, 2, 3, 4, 5]
 const removeDupes = (arr) => {
 
 };
-console.log(removeDupes([1, 2, 2, 3, 4, 4, 5]));
+console.log(removeDupes([1, 2, 2, 3, 4, 4, 5])); //[1, 2, 3, 4, 5]
