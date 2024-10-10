@@ -17,5 +17,5 @@ const digits =
 
 const circleSum = (str) => {
 
-}
+};
 console.log(circleSum(digits));
