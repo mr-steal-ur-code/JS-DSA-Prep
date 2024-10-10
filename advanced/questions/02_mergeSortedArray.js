@@ -11,6 +11,10 @@ The final sorted array should not be returned by the function, but instead be st
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 var merge = function (nums1, m, nums2, n) {
-	
-  console.log(nums1);
+
+	console.log(nums1);
 };
+
+merge([2, 4], 2, [3, 7, 9], 3); // [ 2, 3, 4, 7, 9 ]
+merge([2, 4, 6, 8, 10], 5, [1, 3, 5, 7], 4); // [1, 2, 3, 4, 5, 6, 7, 8, 10]
+merge([2, 4, 6, 8, 10], 5, [1, 3, 5, 7, 9], 5); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
