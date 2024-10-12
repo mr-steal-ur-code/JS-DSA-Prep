@@ -1,17 +1,17 @@
 /** 
 @param {number[]} nums
-@param {number} k
+@param {number} size
 */
 
-const maxSumSubArray = (nums, k) => {
+const maxSumSubArray = (nums, size) => {
 	let maxSum = 0;
 	let currentSum = 0;
-	for (let i = 0; i < k; i++) {
+	for (let i = 0; i < size; i++) {
 		currentSum += nums[i];
 	}
 	maxSum = currentSum;
-	for (let i = k; i < nums.length; i++) {
-		currentSum += nums[i] - nums[i - k];
+	for (let i = size; i < nums.length; i++) {
+		currentSum += nums[i] - nums[i - size];
 		maxSum = Math.max(maxSum, currentSum);
 	}
 	return maxSum;
