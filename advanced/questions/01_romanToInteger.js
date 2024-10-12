@@ -27,4 +27,3 @@ var romanToInt = function (s) {
 console.log(romanToInt("III")); // expect 3
 console.log(romanToInt("LVIII")); // expect 58
 console.log(romanToInt("MCMXCIV")); // expect 1994
-
