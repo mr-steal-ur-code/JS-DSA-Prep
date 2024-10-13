@@ -21,7 +21,7 @@ Given a roman numeral, convert it to an integer.
  * @return {number}
  */
 
-var romanToInt = function (s) {
+const romanToInt = (s) => {
 
 };
 console.log(romanToInt("III")); // expect 3
