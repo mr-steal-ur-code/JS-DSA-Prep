@@ -1,6 +1,7 @@
 // Reverse an array
+//Write a function that takes an array as input and returns a new array with the items in reverse order.
 const arrayReverse = (arr) => {
-	return arr.reverse();
+	return [...arr].reverse();
 };
 
 const arrRev = (arr) => {
